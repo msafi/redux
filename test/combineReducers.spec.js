@@ -153,7 +153,7 @@ describe('Utils', () => {
 
     it('throws an error on first call if a reducer attempts to handle a private action', () => {
       const reducer = combineReducers({
-        counter(state, action) {
+        counter(state = '', action) {
           switch (action.type) {
             case 'increment':
               return state + 1
@@ -163,7 +163,7 @@ describe('Utils', () => {
             case ActionTypes.INIT:
               return 0
             default:
-              return undefined
+              return state
           }
         }
       })
