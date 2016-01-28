@@ -59,7 +59,7 @@ On this page we will only feature a few of them that the Redux maintainers have 
 
 ### Routing
 
-* [redux-simple-router](https://github.com/rackt/redux-simple-router) — Ruthlessly simple bindings to keep React Router and Redux in sync
+* [react-router-redux](https://github.com/rackt/react-router-redux) — Ruthlessly simple bindings to keep React Router and Redux in sync
 * [redux-router](https://github.com/acdlite/redux-router) — Redux bindings for React Router
 
 ### Components
@@ -77,15 +77,16 @@ On this page we will only feature a few of them that the Redux maintainers have 
 * [redux-batched-actions](https://github.com/tshelburne/redux-batched-actions) — Dispatch several actions with a single subscriber notification
 * [redux-search](https://github.com/treasure-data/redux-search) — Automatically index resources in a web worker and search them without blocking
 * [redux-electron-store](https://github.com/samiskin/redux-electron-store) — Store enhancers that synchronize Redux stores across Electron processes
+* [redux-loop](https://github.com/raisemarketplace/redux-loop) — Sequence effects purely and naturally by returning them from your reducers
 
 ### Utilities
 
 * [reselect](https://github.com/faassen/reselect) — Efficient derived data selectors inspired by NuclearJS
 * [normalizr](https://github.com/gaearon/normalizr) — Normalize nested API responses for easier consumption by the reducers
 * [redux-actions](https://github.com/acdlite/redux-actions) — Reduces the boilerplate in writing reducers and action creators
-* [redux-act](https://github.com/pauldijou/redux-act) — An opinionated library for making reducers and action creators 
+* [redux-act](https://github.com/pauldijou/redux-act) — An opinionated library for making reducers and action creators
 * [redux-transducers](https://github.com/acdlite/redux-transducers) — Transducer utilities for Redux
-* [redux-immutablejs](https://github.com/indexiatech/redux-immutablejs) — Integration tools between Redux and [Immutable](https://github.com/facebook/immutable-js/)
+* [redux-immutable](https://github.com/gajus/redux-immutable) — Used to create an equivalent function of Redux `combineReducers` that works with [Immutable.js](https://facebook.github.io/immutable-js/) state.
 * [redux-tcomb](https://github.com/gcanti/redux-tcomb) — Immutable and type-checked state and actions for Redux
 * [redux-mock-store](https://github.com/arnaudbenard/redux-mock-store) — Mock redux store for testing your app
 
